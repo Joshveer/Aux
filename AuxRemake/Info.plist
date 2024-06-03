@@ -5,6 +5,14 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>URL Schemes</key>
+			<array>
+				<string>AuxRemake</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.GrewalLu.AuxRemakePL</string>
+		</dict>
+		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
@@ -17,5 +25,14 @@
 	</array>
 	<key>GIDClientID</key>
 	<string>551841037642-3umucgorq302m2102g3rsce179scs8v8.apps.googleusercontent.com</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>spotify</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
